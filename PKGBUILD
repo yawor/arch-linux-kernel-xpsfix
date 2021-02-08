@@ -1,7 +1,7 @@
 # Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 pkgbase=linux-xpsfix
-pkgver=5.10.12.arch1
+pkgver=5.10.14.arch1
 pkgrel=1
 pkgdesc='Linux'
 _srctag=v${pkgver%.*}-${pkgver##*.}
@@ -26,7 +26,7 @@ validpgpkeys=(
   'A2FF3A36AAA56654109064AB19802F8B0D70FC30'  # Jan Alexander Steffens (heftig)
 )
 sha256sums=('SKIP'
-            '362fe0e8677e6c2657f487df622734051f70176c10ce5614d52e3be83cde07b7'
+            '47a5c0cbe4f75e77fe64953b516a6a9f277c1dfb812e31edf5cb25feb1b3819a'
             'SKIP')
 
 export KBUILD_BUILD_HOST=archlinux
